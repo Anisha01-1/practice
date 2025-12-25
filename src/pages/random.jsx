@@ -101,6 +101,9 @@ export const Random = () => {
         <Link to="/view">
         <button className="bg-green-700 text-white border border-white px-4 py-2 rounded-full hover:bg-green-600">Go to View Page</button>
         </Link>
+        <Link to="/form">
+        <button className="bg-green-700 text-white border border-white px-4 py-2 rounded-full hover:bg-green-600">Go To Form</button>
+        </Link>
       </div>
     </>
   );

@@ -7,6 +7,7 @@ export function Button({ name = "Go to About Page" }) {
         <Link to="/home">{name}</Link>
         <Link to="/random"></Link>
         <Link to="/view"></Link>
+        <Link to="/form"></Link>
       </button>
     </>
   );
